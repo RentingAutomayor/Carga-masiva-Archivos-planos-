@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BusinessObjects">
+      <HintPath>..\BusinessObjects\bin\Debug\BusinessObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="DAO">
+      <HintPath>..\DAO\bin\Debug\DAO.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>D:\RentingAutomayor\DAO\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>D:\RentingAutomayor\DAO\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
